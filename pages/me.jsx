@@ -6,7 +6,7 @@ export default function MePage() {
 
   return (
     <Layout>
-      <h1>Me</h1>
+      <h1 className="text-5xl mb-4">Me</h1>
       <p>My content</p>
     </Layout>
   );

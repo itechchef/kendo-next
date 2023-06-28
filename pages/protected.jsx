@@ -29,7 +29,7 @@ export default function ProtectedPage() {
   // If session exists, display content
   return (
     <Layout>
-      <h1>Protected Page</h1>
+      <h1 className="text-5xl mb-4">Protected Page</h1>
       <p>{content ?? ""}</p>
     </Layout>
   );

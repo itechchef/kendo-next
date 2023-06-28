@@ -3,7 +3,7 @@ import styles from "./nav.module.scss";
 
 export default function Nav() {
   return (
-    <nav>
+    <nav className="mt-4">
       <ul className={styles.navItems}>
         <li className={styles.navItem}>
           <Link href="/">Home</Link>

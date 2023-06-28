@@ -9,7 +9,7 @@ export default function ServerSidePage() {
 
   return (
     <Layout>
-      <h1>Server Side Rendering</h1>
+      <h1 className="text-5xl mb-4">Server Side Rendering</h1>
 
       {session ? (
         <p>Signed in as {session.user.email}</p>

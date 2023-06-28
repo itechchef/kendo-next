@@ -5,7 +5,7 @@ export default function ClientPage() {
   const { data: session, status } = useSession();
   return (
     <Layout>
-      <h1>Client Side Rendering</h1>
+      <h1 className="text-5xl mb-4">Client Side Rendering</h1>
 
       {status === "authenticated" ? (
         <p>Signed in as {session.user.email}</p>
